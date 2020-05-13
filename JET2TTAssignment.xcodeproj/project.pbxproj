@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70739F06246A55DE006E0DBC /* UIView+Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70739F04246A55DE006E0DBC /* UIView+Corners.swift */; };
+		70739F07246A55DE006E0DBC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70739F05246A55DE006E0DBC /* ImageLoader.swift */; };
+		70739F09246A57B6006E0DBC /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70739F08246A57B6006E0DBC /* ArticleTableViewCell.swift */; };
+		70BE4ABF2469D9E900882B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4ABE2469D9E900882B9C /* AppDelegate.swift */; };
+		70BE4AC12469D9E900882B9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AC02469D9E900882B9C /* SceneDelegate.swift */; };
+		70BE4AC62469D9E900882B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BE4AC42469D9E900882B9C /* Main.storyboard */; };
+		70BE4AC92469D9E900882B9C /* JET2TTAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AC72469D9E900882B9C /* JET2TTAssignment.xcdatamodeld */; };
+		70BE4ACB2469D9ED00882B9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BE4ACA2469D9ED00882B9C /* Assets.xcassets */; };
+		70BE4ACE2469D9ED00882B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BE4ACC2469D9ED00882B9C /* LaunchScreen.storyboard */; };
+		70BE4AD92469D9EE00882B9C /* JET2TTAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AD82469D9EE00882B9C /* JET2TTAssignmentTests.swift */; };
+		70BE4AE42469D9EE00882B9C /* JET2TTAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AE32469D9EE00882B9C /* JET2TTAssignmentUITests.swift */; };
+		70BE4AF22469DA6A00882B9C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AF12469DA6A00882B9C /* Coordinator.swift */; };
+		70BE4AF42469DAF900882B9C /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AF32469DAF900882B9C /* Storyboarded.swift */; };
+		70BE4AF62469DB2600882B9C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AF52469DB2600882B9C /* MainCoordinator.swift */; };
+		70BE4AF92469DC2600882B9C /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AF82469DC2600882B9C /* ArticlesTableViewController.swift */; };
+		70BE4AFB2469DC9200882B9C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AFA2469DC9200882B9C /* Model.swift */; };
+		70BE4AFD2469DD4200882B9C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4AFC2469DD4200882B9C /* APIService.swift */; };
+		70BE4B052469DFE700882B9C /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE4B042469DFE700882B9C /* ArticlesViewModel.swift */; };
+		86E3C8F7246AF8DF006E53D7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E3C8F6246AF8DF006E53D7 /* Utility.swift */; };
+		86FE7140246BBFE4001CC6BA /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE713F246BBFE4001CC6BA /* Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70BE4AD52469D9EE00882B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70BE4AB32469D9E900882B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70BE4ABA2469D9E900882B9C;
+			remoteInfo = JET2TTAssignment;
+		};
+		70BE4AE02469D9EE00882B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70BE4AB32469D9E900882B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70BE4ABA2469D9E900882B9C;
+			remoteInfo = JET2TTAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70739F04246A55DE006E0DBC /* UIView+Corners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Corners.swift"; sourceTree = "<group>"; };
+		70739F05246A55DE006E0DBC /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		70739F08246A57B6006E0DBC /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		70BE4ABB2469D9E900882B9C /* JET2TTAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JET2TTAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BE4ABE2469D9E900882B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70BE4AC02469D9E900882B9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70BE4AC52469D9E900882B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70BE4AC82469D9E900882B9C /* JET2TTAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JET2TTAssignment.xcdatamodel; sourceTree = "<group>"; };
+		70BE4ACA2469D9ED00882B9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70BE4ACD2469D9ED00882B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70BE4ACF2469D9ED00882B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BE4AD42469D9EE00882B9C /* JET2TTAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JET2TTAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BE4AD82469D9EE00882B9C /* JET2TTAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JET2TTAssignmentTests.swift; sourceTree = "<group>"; };
+		70BE4ADA2469D9EE00882B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BE4ADF2469D9EE00882B9C /* JET2TTAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JET2TTAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BE4AE32469D9EE00882B9C /* JET2TTAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JET2TTAssignmentUITests.swift; sourceTree = "<group>"; };
+		70BE4AE52469D9EE00882B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BE4AF12469DA6A00882B9C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		70BE4AF32469DAF900882B9C /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		70BE4AF52469DB2600882B9C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		70BE4AF82469DC2600882B9C /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
+		70BE4AFA2469DC9200882B9C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		70BE4AFC2469DD4200882B9C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		70BE4B042469DFE700882B9C /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
+		86E3C8F6246AF8DF006E53D7 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		86FE713F246BBFE4001CC6BA /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70BE4AB82469D9E900882B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BE4AD12469D9EE00882B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BE4ADC2469D9EE00882B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70739F0B246A57DA006E0DBC /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				70739F08246A57B6006E0DBC /* ArticleTableViewCell.swift */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		70BE4AB22469D9E900882B9C = {
+			isa = PBXGroup;
+			children = (
+				70BE4ABD2469D9E900882B9C /* JET2TTAssignment */,
+				70BE4AD72469D9EE00882B9C /* JET2TTAssignmentTests */,
+				70BE4AE22469D9EE00882B9C /* JET2TTAssignmentUITests */,
+				70BE4ABC2469D9E900882B9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70BE4ABC2469D9E900882B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4ABB2469D9E900882B9C /* JET2TTAssignment.app */,
+				70BE4AD42469D9EE00882B9C /* JET2TTAssignmentTests.xctest */,
+				70BE4ADF2469D9EE00882B9C /* JET2TTAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70BE4ABD2469D9E900882B9C /* JET2TTAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4B082469E47E00882B9C /* Helper */,
+				70BE4AFF2469DF2800882B9C /* Application */,
+				70BE4AF72469DBBC00882B9C /* Coordinator */,
+				70BE4AFE2469DF0800882B9C /* API */,
+				70BE4B002469DF3A00882B9C /* Models */,
+				70BE4B022469DFBE00882B9C /* Modules */,
+				70BE4B012469DF4E00882B9C /* UIStoryboard */,
+				70BE4ACF2469D9ED00882B9C /* Info.plist */,
+				70BE4ACA2469D9ED00882B9C /* Assets.xcassets */,
+				70BE4AC72469D9E900882B9C /* JET2TTAssignment.xcdatamodeld */,
+			);
+			path = JET2TTAssignment;
+			sourceTree = "<group>";
+		};
+		70BE4AD72469D9EE00882B9C /* JET2TTAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4AD82469D9EE00882B9C /* JET2TTAssignmentTests.swift */,
+				70BE4ADA2469D9EE00882B9C /* Info.plist */,
+			);
+			path = JET2TTAssignmentTests;
+			sourceTree = "<group>";
+		};
+		70BE4AE22469D9EE00882B9C /* JET2TTAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4AE32469D9EE00882B9C /* JET2TTAssignmentUITests.swift */,
+				70BE4AE52469D9EE00882B9C /* Info.plist */,
+			);
+			path = JET2TTAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		70BE4AF72469DBBC00882B9C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4AF12469DA6A00882B9C /* Coordinator.swift */,
+				70BE4AF32469DAF900882B9C /* Storyboarded.swift */,
+				70BE4AF52469DB2600882B9C /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		70BE4AFE2469DF0800882B9C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4AFC2469DD4200882B9C /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		70BE4AFF2469DF2800882B9C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4ABE2469D9E900882B9C /* AppDelegate.swift */,
+				70BE4AC02469D9E900882B9C /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		70BE4B002469DF3A00882B9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4AFA2469DC9200882B9C /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		70BE4B012469DF4E00882B9C /* UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4AC42469D9E900882B9C /* Main.storyboard */,
+				70BE4ACC2469D9ED00882B9C /* LaunchScreen.storyboard */,
+			);
+			path = UIStoryboard;
+			sourceTree = "<group>";
+		};
+		70BE4B022469DFBE00882B9C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				70BE4B032469DFC700882B9C /* Articles */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		70BE4B032469DFC700882B9C /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				70739F0B246A57DA006E0DBC /* Custom Cells */,
+				70BE4AF82469DC2600882B9C /* ArticlesTableViewController.swift */,
+				70BE4B042469DFE700882B9C /* ArticlesViewModel.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		70BE4B082469E47E00882B9C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				70739F05246A55DE006E0DBC /* ImageLoader.swift */,
+				70739F04246A55DE006E0DBC /* UIView+Corners.swift */,
+				86E3C8F6246AF8DF006E53D7 /* Utility.swift */,
+				86FE713F246BBFE4001CC6BA /* Alert.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70BE4ABA2469D9E900882B9C /* JET2TTAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BE4AE82469D9EE00882B9C /* Build configuration list for PBXNativeTarget "JET2TTAssignment" */;
+			buildPhases = (
+				70BE4AB72469D9E900882B9C /* Sources */,
+				70BE4AB82469D9E900882B9C /* Frameworks */,
+				70BE4AB92469D9E900882B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JET2TTAssignment;
+			productName = JET2TTAssignment;
+			productReference = 70BE4ABB2469D9E900882B9C /* JET2TTAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70BE4AD32469D9EE00882B9C /* JET2TTAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BE4AEB2469D9EE00882B9C /* Build configuration list for PBXNativeTarget "JET2TTAssignmentTests" */;
+			buildPhases = (
+				70BE4AD02469D9EE00882B9C /* Sources */,
+				70BE4AD12469D9EE00882B9C /* Frameworks */,
+				70BE4AD22469D9EE00882B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70BE4AD62469D9EE00882B9C /* PBXTargetDependency */,
+			);
+			name = JET2TTAssignmentTests;
+			productName = JET2TTAssignmentTests;
+			productReference = 70BE4AD42469D9EE00882B9C /* JET2TTAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70BE4ADE2469D9EE00882B9C /* JET2TTAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BE4AEE2469D9EE00882B9C /* Build configuration list for PBXNativeTarget "JET2TTAssignmentUITests" */;
+			buildPhases = (
+				70BE4ADB2469D9EE00882B9C /* Sources */,
+				70BE4ADC2469D9EE00882B9C /* Frameworks */,
+				70BE4ADD2469D9EE00882B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70BE4AE12469D9EE00882B9C /* PBXTargetDependency */,
+			);
+			name = JET2TTAssignmentUITests;
+			productName = JET2TTAssignmentUITests;
+			productReference = 70BE4ADF2469D9EE00882B9C /* JET2TTAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70BE4AB32469D9E900882B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Himanshu;
+				TargetAttributes = {
+					70BE4ABA2469D9E900882B9C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					70BE4AD32469D9EE00882B9C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 70BE4ABA2469D9E900882B9C;
+					};
+					70BE4ADE2469D9EE00882B9C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 70BE4ABA2469D9E900882B9C;
+					};
+				};
+			};
+			buildConfigurationList = 70BE4AB62469D9E900882B9C /* Build configuration list for PBXProject "JET2TTAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70BE4AB22469D9E900882B9C;
+			productRefGroup = 70BE4ABC2469D9E900882B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70BE4ABA2469D9E900882B9C /* JET2TTAssignment */,
+				70BE4AD32469D9EE00882B9C /* JET2TTAssignmentTests */,
+				70BE4ADE2469D9EE00882B9C /* JET2TTAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70BE4AB92469D9E900882B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BE4ACE2469D9ED00882B9C /* LaunchScreen.storyboard in Resources */,
+				70BE4ACB2469D9ED00882B9C /* Assets.xcassets in Resources */,
+				70BE4AC62469D9E900882B9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BE4AD22469D9EE00882B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BE4ADD2469D9EE00882B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70BE4AB72469D9E900882B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E3C8F7246AF8DF006E53D7 /* Utility.swift in Sources */,
+				70BE4AF62469DB2600882B9C /* MainCoordinator.swift in Sources */,
+				70739F09246A57B6006E0DBC /* ArticleTableViewCell.swift in Sources */,
+				86FE7140246BBFE4001CC6BA /* Alert.swift in Sources */,
+				70BE4B052469DFE700882B9C /* ArticlesViewModel.swift in Sources */,
+				70739F07246A55DE006E0DBC /* ImageLoader.swift in Sources */,
+				70BE4ABF2469D9E900882B9C /* AppDelegate.swift in Sources */,
+				70BE4AF22469DA6A00882B9C /* Coordinator.swift in Sources */,
+				70BE4AC12469D9E900882B9C /* SceneDelegate.swift in Sources */,
+				70BE4AC92469D9E900882B9C /* JET2TTAssignment.xcdatamodeld in Sources */,
+				70BE4AF42469DAF900882B9C /* Storyboarded.swift in Sources */,
+				70BE4AF92469DC2600882B9C /* ArticlesTableViewController.swift in Sources */,
+				70BE4AFD2469DD4200882B9C /* APIService.swift in Sources */,
+				70739F06246A55DE006E0DBC /* UIView+Corners.swift in Sources */,
+				70BE4AFB2469DC9200882B9C /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BE4AD02469D9EE00882B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BE4AD92469D9EE00882B9C /* JET2TTAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BE4ADB2469D9EE00882B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BE4AE42469D9EE00882B9C /* JET2TTAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70BE4AD62469D9EE00882B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70BE4ABA2469D9E900882B9C /* JET2TTAssignment */;
+			targetProxy = 70BE4AD52469D9EE00882B9C /* PBXContainerItemProxy */;
+		};
+		70BE4AE12469D9EE00882B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70BE4ABA2469D9E900882B9C /* JET2TTAssignment */;
+			targetProxy = 70BE4AE02469D9EE00882B9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70BE4AC42469D9E900882B9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70BE4AC52469D9E900882B9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70BE4ACC2469D9ED00882B9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70BE4ACD2469D9ED00882B9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70BE4AE62469D9EE00882B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70BE4AE72469D9EE00882B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70BE4AE92469D9EE00882B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2TTAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.himanshu.JET2TTAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70BE4AEA2469D9EE00882B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2TTAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.himanshu.JET2TTAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70BE4AEC2469D9EE00882B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2TTAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.himanshu.JET2TTAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JET2TTAssignment.app/JET2TTAssignment";
+			};
+			name = Debug;
+		};
+		70BE4AED2469D9EE00882B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2TTAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.himanshu.JET2TTAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JET2TTAssignment.app/JET2TTAssignment";
+			};
+			name = Release;
+		};
+		70BE4AEF2469D9EE00882B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2TTAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.himanshu.JET2TTAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JET2TTAssignment;
+			};
+			name = Debug;
+		};
+		70BE4AF02469D9EE00882B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JET2TTAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.himanshu.JET2TTAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JET2TTAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70BE4AB62469D9E900882B9C /* Build configuration list for PBXProject "JET2TTAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BE4AE62469D9EE00882B9C /* Debug */,
+				70BE4AE72469D9EE00882B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BE4AE82469D9EE00882B9C /* Build configuration list for PBXNativeTarget "JET2TTAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BE4AE92469D9EE00882B9C /* Debug */,
+				70BE4AEA2469D9EE00882B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BE4AEB2469D9EE00882B9C /* Build configuration list for PBXNativeTarget "JET2TTAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BE4AEC2469D9EE00882B9C /* Debug */,
+				70BE4AED2469D9EE00882B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BE4AEE2469D9EE00882B9C /* Build configuration list for PBXNativeTarget "JET2TTAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BE4AEF2469D9EE00882B9C /* Debug */,
+				70BE4AF02469D9EE00882B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70BE4AC72469D9E900882B9C /* JET2TTAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				70BE4AC82469D9E900882B9C /* JET2TTAssignment.xcdatamodel */,
+			);
+			currentVersion = 70BE4AC82469D9E900882B9C /* JET2TTAssignment.xcdatamodel */;
+			path = JET2TTAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 70BE4AB32469D9E900882B9C /* Project object */;
+}
